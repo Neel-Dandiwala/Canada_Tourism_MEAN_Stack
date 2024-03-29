@@ -1,0 +1,84 @@
+{
+  "0 debug pnpm:scope": {
+    "selected": 1
+  },
+  "1 debug pnpm:package-manifest": {
+    "initial": {},
+    "prefix": "D:\\Desktop\\FoodApp"
+  },
+  "2 debug pnpm:context": {
+    "currentLockfileExists": false,
+    "storeDir": "D:\\.pnpm-store\\v3",
+    "virtualStoreDir": "D:\\Desktop\\FoodApp\\node_modules\\.pnpm"
+  },
+  "3 debug pnpm:stage": {
+    "prefix": "D:\\Desktop\\FoodApp",
+    "stage": "resolution_started"
+  },
+  "4 debug pnpm:request-retry": {
+    "attempt": 1,
+    "error": {
+      "code": "ERR_INVALID_THIS"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 10000,
+    "url": "https://registry.npmjs.org/g"
+  },
+  "5 debug pnpm:request-retry": {
+    "attempt": 1,
+    "error": {
+      "code": "ERR_INVALID_THIS"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 10000,
+    "url": "https://registry.npmjs.org/@angular%2Fcli"
+  },
+  "6 error pnpm": {
+    "code": "ERR_PNPM_META_FETCH_FAIL",
+    "attempts": 1,
+    "err": {
+      "name": "Error",
+      "message": "GET https://registry.npmjs.org/pnpm: Value of \"this\" must be of type URLSearchParams",
+      "code": "ERR_PNPM_META_FETCH_FAIL",
+      "stack": "Error: GET https://registry.npmjs.org/pnpm: Value of \"this\" must be of type URLSearchParams\n    at RetryOperation._fn (C:\\Users\\NeelDandiwala\\AppData\\Roaming\\npm\\node_modules\\pnpm\\dist\\pnpm.cjs:85369:19)"
+    }
+  },
+  "7 debug pnpm": "Using cached meta from C:\\Users\\NeelDandiwala\\AppData\\Local\\pnpm-cache\\metadata\\registry.npmjs.org\\pnpm.json",
+  "8 debug pnpm:update-check": {
+    "currentVersion": "6.24.3",
+    "latestVersion": "8.10.2"
+  },
+  "9 debug pnpm:request-retry": {
+    "attempt": 2,
+    "error": {
+      "code": "ERR_INVALID_THIS"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 60000,
+    "url": "https://registry.npmjs.org/g"
+  },
+  "10 debug pnpm:request-retry": {
+    "attempt": 2,
+    "error": {
+      "code": "ERR_INVALID_THIS"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 60000,
+    "url": "https://registry.npmjs.org/@angular%2Fcli"
+  },
+  "11 error pnpm": {
+    "code": "ERR_PNPM_META_FETCH_FAIL",
+    "attempts": 1,
+    "pkgsStack": [],
+    "err": {
+      "name": "pnpm",
+      "message": "GET https://registry.npmjs.org/g: Value of \"this\" must be of type URLSearchParams",
+      "code": "ERR_PNPM_META_FETCH_FAIL",
+      "stack": "pnpm: GET https://registry.npmjs.org/g: Value of \"this\" must be of type URLSearchParams\n    at RetryOperation._fn (C:\\Users\\NeelDandiwala\\AppData\\Roaming\\npm\\node_modules\\pnpm\\dist\\pnpm.cjs:85369:19)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at runNextTicks (node:internal/process/task_queues:64:3)\n    at listOnTimeout (node:internal/timers:540:9)\n    at process.processTimers (node:internal/timers:514:7)"
+    }
+  }
+}
