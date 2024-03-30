@@ -12,4 +12,14 @@ export class CityService {
   getAll():City[] {
     return sample_cities;
   }
+
+  getAllCitiesBySearchTerm(searchTerm:string):City[] {
+    return this.getAll().filter(city => {
+      {
+        const lowercaseSearchTerm = searchTerm.toLowerCase();
+        return city.tags.some(tag => tag.toLowerCase().includes(lowercaseSearchTerm)) ||
+               city.name.toLowerCase().includes(lowercaseSearchTerm);
+      }
+    });
+  }
 }

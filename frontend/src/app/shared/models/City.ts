@@ -5,7 +5,7 @@ export class City{
 
     province!: string;
 
-    tags?: string[];
+    tags!: string[];
 
     favourite!: boolean;
 
@@ -14,5 +14,5 @@ export class City{
     imageUrl!: string;
 
     origins!: string;
-    
+
 }
