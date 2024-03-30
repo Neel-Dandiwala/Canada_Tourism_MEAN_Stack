@@ -1,0 +1,25 @@
+
+<div *ngFor="let city of cities" class="col">
+    <div class="blog-card spring-fever" [style.background-image]="'url(' + city.imageUrl + ')'">
+    <div class="title-content">
+      <h3><a routerLink="/city/{{city.id}}">{{city.name}}</a></h3>
+      <div class="intro"> {{city.province}} </div>
+    </div>
+    <div class="card-info">
+      {{city.tags}}
+      <a routerLink="/city/{{city.id}}">Visit<span class="licon icon-arr icon-black"></span></a>
+    </div>
+    <div class="utility-info">
+      <ul class="utility-list">
+        <li><span class="licon icon-like"></span>{{city.stars}}</li>
+        <li><span class="licon icon-com"></span>{{city.favourite ? '10+': '50+'}}</li>
+        
+        <li><span class="licon icon-tag"></span>{{city.tags}}</li>
+      </ul>
+    </div>
+    <div class="gradient-overlay"></div>
+    <div class="color-overlay"></div>
+  </div><!-- /.blog-card -->
+</div>
+
+  
