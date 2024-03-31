@@ -6,9 +6,12 @@ body {
   background: linear-gradient(to bottom, rgba(0,5,10,0.4) 0%,rgba(0,0,0,0) 100%);
   font-family: 'Droid Serif', serif;
 }
+.wrapper {
+  font-size: 0.75em;
+}
   
   .col {
-    width: 33.3%;
+    /* width: 33.3%; */
     flex-basis: calc(33.33% - 20px); /* Adjust as needed */
     margin-bottom: 20px; /* Adjust spacing between rows */
 
