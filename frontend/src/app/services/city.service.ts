@@ -1,6 +1,7 @@
 import { Injectable } from '@angular/core';
 import { City } from '../shared/models/City';
-import { sample_cities } from '../../data';
+import { CityDetail } from '../shared/models/CityDetail';
+import { sample_cities } from '../../data/home_city_data';
 
 @Injectable({
   providedIn: 'root'
@@ -22,4 +23,10 @@ export class CityService {
       }
     });
   }
+
+  getCityById(id:string): any {
+    return null
+  }
+
+  
 }

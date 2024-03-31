@@ -17,6 +17,15 @@ body {
     text-align: center; 
   }
 
+
+
+.header {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
 .blog-card {
   max-width: 550px;
   width:100%;

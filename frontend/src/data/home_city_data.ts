@@ -1,4 +1,4 @@
-import { City } from "./app/shared/models/City";
+import { City } from "../app/shared/models/City";
 
 export const sample_cities: City[] = [
     {
@@ -8,7 +8,7 @@ export const sample_cities: City[] = [
         tags: ["urban", "diverse", "cultural"],
         favourite: true,
         stars: 4,
-        imageUrl: "assets/c1_toronto.jpg",
+        imageUrl: "assets/home_assets/c1_toronto.jpg",
         origins: "Indigenous"
     },
     {
@@ -18,7 +18,7 @@ export const sample_cities: City[] = [
         tags: ["coastal", "scenic", "multicultural"],
         favourite: false,
         stars: 4,
-        imageUrl: "assets/c1_vancouver.jpg",
+        imageUrl: "assets/home_assets/c1_vancouver.jpg",
         origins: "Colonial"
     },
     {
@@ -28,7 +28,7 @@ export const sample_cities: City[] = [
         tags: ["historic", "artistic", "fashionable"],
         favourite: true,
         stars: 5,
-        imageUrl: "assets/c1_montreal.jpg",
+        imageUrl: "assets/home_assets/c1_montreal.jpg",
         origins: "Colonial"
     },
     {
@@ -38,7 +38,7 @@ export const sample_cities: City[] = [
         tags: ["cosmopolitan", "outdoorsy", "energetic"],
         favourite: false,
         stars: 4,
-        imageUrl: "assets/c1_calgary.jpg",
+        imageUrl: "assets/home_assets/c1_calgary.jpg",
         origins: "Pioneer"
     },
     {
@@ -48,7 +48,7 @@ export const sample_cities: City[] = [
         tags: ["capital", "political", "historic"],
         favourite: true,
         stars: 4,
-        imageUrl: "assets/c1_ottawa.jpg",
+        imageUrl: "assets/home_assets/c1_ottawa.jpg",
         origins: "Colonial"
     },
     {
@@ -58,7 +58,7 @@ export const sample_cities: City[] = [
         tags: ["urban", "cultural", "sports"],
         favourite: false,
         stars: 3,
-        imageUrl: "assets/c1_edmonton.jpg",
+        imageUrl: "assets/home_assets/c1_edmonton.jpg",
         origins: "Pioneer"
     },
     {
@@ -68,7 +68,7 @@ export const sample_cities: City[] = [
         tags: ["historic", "charming", "European"],
         favourite: true,
         stars: 5,
-        imageUrl: "assets/c1_quebeccity.jpg",
+        imageUrl: "assets/home_assets/c1_quebeccity.jpg",
         origins: "Colonial"
     },
     {
@@ -78,7 +78,7 @@ export const sample_cities: City[] = [
         tags: ["cultural", "historic", "friendly"],
         favourite: false,
         stars: 4,
-        imageUrl: "assets/c1_winnipeg.jpg",
+        imageUrl: "assets/home_assets/c1_winnipeg.jpg",
         origins: "Colonial"
     },
     {
@@ -88,7 +88,7 @@ export const sample_cities: City[] = [
         tags: ["coastal", "historic", "lively"],
         favourite: true,
         stars: 4,
-        imageUrl: "assets/c1_halifax.jpg",
+        imageUrl: "assets/home_assets/c1_halifax.jpg",
         origins: "Colonial"
     },
     {
@@ -98,7 +98,7 @@ export const sample_cities: City[] = [
         tags: ["quaint", "historic", "island"],
         favourite: false,
         stars: 4,
-        imageUrl: "assets/c1_victoria.jpg",
+        imageUrl: "assets/home_assets/c1_victoria.jpg",
         origins: "Colonial"
     },
     {
@@ -108,7 +108,7 @@ export const sample_cities: City[] = [
         tags: ["scenic", "outdoors", "relaxed"],
         favourite: true,
         stars: 4,
-        imageUrl: "assets/c1_thunderbay.jpg",
+        imageUrl: "assets/home_assets/c1_thunderbay.jpg",
         origins: "Indigenous"
     },
     {
@@ -118,7 +118,7 @@ export const sample_cities: City[] = [
         tags: ["historic", "quaint", "coastal"],
         favourite: false,
         stars: 4,
-        imageUrl: "assets/c1_charlottetown.jpg",
+        imageUrl: "assets/home_assets/c1_charlottetown.jpg",
         origins: "Colonial"
     }
 ];
