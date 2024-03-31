@@ -1,6 +1,7 @@
 <div class="wrapper">
 <app-header class="header"></app-header>
 <app-search></app-search>
+<div class="row">
 <div *ngFor="let city of cities" class="col">
     <div class="blog-card spring-fever" [style.background-image]="'url(' + city.imageUrl + ')'">
     <div class="title-content">
@@ -22,6 +23,7 @@
     <div class="gradient-overlay"></div>
     <div class="color-overlay"></div>
   </div><!-- /.blog-card -->
+</div>
 </div>
 </div>
   

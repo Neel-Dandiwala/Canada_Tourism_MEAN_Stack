@@ -7,18 +7,11 @@
   margin: 0;
 }
 
-html, body {
-  width: 50%;
-  height: 50%;
-  justify-content: center;
-  text-align: center;
-  align-items: center;
-}
 
 .flexbox-search {
   /* background: linear-gradient(155deg, #fff, #2bb3e0, #3bc1ed, #fff); */
-  width: 100%;
-  height: 100%;
+  
+  height: 10%;
   display: flex;
   justify-content: center;
   align-items: center;
