@@ -1,5 +1,4 @@
-<!DOCTYPE html>
-    <html lang="en">
+<html>
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,53 +6,20 @@
         <!--=============== REMIXICONS ===============-->
         <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
 
-        <title>Responsive Website Travel</title>
+        
     </head>
     <body>
-        <header class="header" id="header">
-            <nav class="nav container">
-                <a href="#" class="nav__logo">Travel</a>
-
-                <div class="nav__menu" id="nav-menu">
-                    <ul class="nav__list">
-                        <li class="nav__item">
-                            <a href="#home" class="nav__link active-link">Home</a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="#about" class="nav__link">About</a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="#discover" class="nav__link">Discover</a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="#place" class="nav__link">Places</a>
-                        </li>
-                    </ul>
-
-                    <div class="nav__dark">
-                        <!-- Theme change button -->
-                        <span class="change-theme-name">Dark mode</span>
-                        <i class="ri-moon-line change-theme" id="theme-button"></i>
-                    </div>
-
-                    <i class="ri-close-line nav__close" id="nav-close"></i>
-                </div>
-
-                <div class="nav__toggle" id="nav-toggle">
-                    <i class="ri-function-line"></i>
-                </div>
-            </nav>
-        </header>
+        
 
         <main class="main">
             <!--==================== HOME ====================-->
             <section class="home" id="home">
-                <img src="assets/img/home1.jpg" alt="" class="home__img">
+                <img src="assets/home_assets/c1_calgary.jpg" alt="" class="home__img">
 
                 <div class="home__container container grid">
                     <div class="home__data">
-                        <span class="home__data-subtitle">Discover your place</span>
-                        <h1 class="home__data-title">Explore The <br> Best <b>Beautiful <br> Beaches</b></h1>
+                        <span class="home__data-subtitle">Discover {{city.name}}</span>
+                        <h1 class="home__data-title"><b>{{city.first_tagline}}</b></h1>
                         <a href="#" class="button">Explore</a>
 
                     </div>
@@ -78,8 +44,7 @@
                 <div class="about__container container grid">
                     <div class="about__data">
                         <h2 class="section__title about__title">More Information <br> About The Best Beaches</h2>
-                        <p class="about__description">You can find the most beautiful and pleasant places at the best 
-                            prices with special discounts, you choose the place we will guide you all the way to wait, get your 
+                        <p class="about__description">You can find the most beautiful and pleasant places at the best prices with special discounts, you choose the place we will guide you all the way to wait, get your 
                             place now.
                         </p>
                     </div>
@@ -94,39 +59,13 @@
                     <div class="swiper-wrapper">
                         <!--==================== DISCOVER 1 ====================-->
                         <div class="discover__card swiper-slide">
-                            <img src="assets/img/discover1.jpg" alt="" class="discover__img">
+                            <img src="assets/home_assets/c1_calgary.jpg" alt="" class="discover__img">
                             <div class="discover__data">
                                 <h2 class="discover__title">Bali</h2>
                                 <span class="discover__description">24 tours available</span>
                             </div>
                         </div>
-
-                        <!--==================== DISCOVER 2 ====================-->
-                        <div class="discover__card swiper-slide">
-                            <img src="assets/img/discover2.jpg" alt="" class="discover__img">
-                            <div class="discover__data">
-                                <h2 class="discover__title">Hawaii</h2>
-                                <span class="discover__description">15 tours available</span>
-                            </div>
-                        </div>
-
-                        <!--==================== DISCOVER 3 ====================-->
-                        <div class="discover__card swiper-slide">
-                            <img src="assets/img/discover3.jpg" alt="" class="discover__img">
-                            <div class="discover__data">
-                                <h2 class="discover__title">Hvar</h2>
-                                <span class="discover__description">18 tours available</span>
-                            </div>
-                        </div>
-
-                        <!--==================== DISCOVER 4 ====================-->
-                        <div class="discover__card swiper-slide">
-                            <img src="assets/img/discover4.jpg" alt="" class="discover__img">
-                            <div class="discover__data">
-                                <h2 class="discover__title">Whitehaven</h2>
-                                <span class="discover__description">32 tours available</span>
-                            </div>
-                        </div>
+                    
                     </div>
                 </div>
             </section>
@@ -155,36 +94,17 @@
 
                     <div class="experience__img grid">
                         <div class="experience__overlay">
-                            <img src="assets/img/experience1.jpg" alt="" class="experience__img-one">
+                            <img src="assets/home_assets/c1_calgary.jpg" alt="" class="experience__img-one">
                         </div>
                         
                         <div class="experience__overlay">
-                            <img src="assets/img/experience2.jpg" alt="" class="experience__img-two">
+                            <img src="assets/home_assets/c1_calgary.jpg" alt="" class="experience__img-two">
                         </div>
                     </div>
                 </div>
             </section>
 
-            <!--==================== SPONSORS ====================-->
-            <section class="sponsor section">
-                <div class="sponsor__container container grid">
-                    <div class="sponsor__content">
-                        <img src="assets/img/sponsors1.png" alt="" class="sponsor__img">
-                    </div>
-                    <div class="sponsor__content">
-                        <img src="assets/img/sponsors2.png" alt="" class="sponsor__img">
-                    </div>
-                    <div class="sponsor__content">
-                        <img src="assets/img/sponsors3.png" alt="" class="sponsor__img">
-                    </div>
-                    <div class="sponsor__content">
-                        <img src="assets/img/sponsors4.png" alt="" class="sponsor__img">
-                    </div>
-                    <div class="sponsor__content">
-                        <img src="assets/img/sponsors5.png" alt="" class="sponsor__img">
-                    </div>
-                </div>
-            </section>
+            
         </main>
          <!-- ========== SCROLL UP ==========
         <a href="#" class="scrollup" id="scroll-up">
@@ -200,4 +120,4 @@
         <!--=============== MAIN JS ===============-->
         <!-- <script src="assets/js/main.js"></script> --> 
     </body>
-</html>
+    </html>
