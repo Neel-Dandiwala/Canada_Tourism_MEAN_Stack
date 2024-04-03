@@ -1,10 +1,11 @@
 import { Component } from '@angular/core';
+import { FormsModule } from '@angular/forms';
 import { ActivatedRoute, Router } from '@angular/router';
 
 @Component({
   selector: 'app-search',
   standalone: true,
-  imports: [],
+  imports: [FormsModule],
   templateUrl: './search.component.html',
   styleUrl: './search.component.css'
 })
@@ -16,6 +17,18 @@ export class SearchComponent {
         this.searchTerm = params["searchTerm"]
       }
     })
+  }
+
+  onSubmit(): void {
+    if(this.searchTerm){
+      this.router.navigateByUrl('search/' + this.searchTerm);
+    } else {
+      this.router.navigateByUrl('');
+    }
+  }
+
+  clearSearch(): void {
+    this.searchTerm = '';
   }
 
   search(term:string): void {

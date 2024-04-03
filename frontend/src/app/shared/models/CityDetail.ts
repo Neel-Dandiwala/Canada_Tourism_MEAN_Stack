@@ -4,6 +4,8 @@ export class CityDetail {
 
     name!: string;
 
+    title!: string;
+
     first_tagline!: string;
 
     headline!: string;

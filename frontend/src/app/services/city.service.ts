@@ -20,14 +20,12 @@ export class CityService {
       {
         const lowercaseSearchTerm = searchTerm.toLowerCase();
         return city.tags.some(tag => tag.toLowerCase().includes(lowercaseSearchTerm)) ||
-               city.name.toLowerCase().includes(lowercaseSearchTerm);
+              city.name.toLowerCase().includes(lowercaseSearchTerm);
       }
     });
   }
 
   getCityById(id:string): any {
-    return city_details.find({ "id": id})
-  }
-
-  
+    return city_details.find(city => city.id === id);
+  }  
 }

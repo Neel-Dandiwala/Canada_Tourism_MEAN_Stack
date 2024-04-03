@@ -1,10 +1,8 @@
-<div class="flexbox-search">
-    <div class="search">
-      <div>
-        <input #s type="text" placeholder="Search . . ." 
-        (keyup.enter)="search(s.value)" 
-        value={{searchTerm}}
-        required>
-      </div>
+<div class="flexbox">
+  <div class="search">
+    <div>
+      <input #s type="text" (keyup.enter)="search(s.value)" 
+      value={{searchTerm}} required>
     </div>
   </div>
+</div>
