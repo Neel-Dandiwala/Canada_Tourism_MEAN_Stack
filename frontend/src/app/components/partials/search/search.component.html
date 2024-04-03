@@ -1,7 +1,7 @@
 <div class="flexbox">
   <div class="search">
     <div>
-      <input #s type="text" (keyup.enter)="search(s.value)" 
+      <input #s type="text" defaultValue="Search" (keyup.enter)="search(s.value)" 
       value={{searchTerm}} required>
     </div>
   </div>
